@@ -79,9 +79,6 @@ def setup_sample_table(client):
     # wait for it to finish
     query_job.result()
 
-    # refresh job metadata
-    query_job.reload(client)
-
     print("Query {} was a {} and was billed {} bytes".format(query_job.job_id, query_job.statement_type, query_job.total_bytes_billed))
 
 

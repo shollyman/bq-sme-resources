@@ -1,2 +1,10 @@
 # bq-sme-resources
-SQ SME Resources
+
+This repository supports some training initiatives.
+
+
+## Contents
+
+### Prework
+
+Contains BigQuery prework exercises.
